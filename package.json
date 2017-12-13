@@ -1,0 +1,32 @@
+{
+  "name": "tam first task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "author": "Taha Alsager",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "start": "python -m http.server 7500"
+  },
+  "dependencies": {
+    "angular-animate": "^1.6.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.3",
+    "csswring": "^4.2.1",
+    "gulp": "^3.9.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0",
+    "gulp-uglify": "^1.5.2",
+    "gulp-util": "^3.0.7",
+    "gulp-webserver": "^0.9.1",
+    "ng-lodash": "^0.2.3",
+    "postcss": "^5.0.16",
+    "precss": "^1.4.0"
+  }
+}
