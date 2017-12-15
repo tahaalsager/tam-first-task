@@ -1,10 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <link rel="stylesheet" href="./styles/main.min.css">
+    <link rel="icon" href="img/tam_logo_vertical.png">
+    <title>Tam</title>
 </head>
+
 <body>
+
+
+    <!-- Side Menu -->
+
+    <div class="container-fluid">
+        <div class="sidebar">
+
+            <div>
+                <img class="it-logo" src="img/logo.png">
+                <img class="it-close"  src="img/icon-close.svg">
+            </div>
+
+            <div class="frist-tap">
+                <img src="img/icon-list.svg" id="spa"> المهام
+                <img src="img/icon-arrow-left.svg" id="it-arrow">
+            </div>
+
+
+            <div class="scond-tap">
+                <img src="img/icon-user.svg" id="spa"> الأعضاء
+            </div>
+
+            <div class="third-tap">
+                <img src="img/icon-creditcard.svg" id="spa"> الدفع والفواتير
+            </div>
+
+            <div class="forth-tap">
+                <img src="img/icon-settings.svg" id="spa"> إعدادات
+            </div>
+
+            <div class="profile">
+                <div style="display: inline-block;margin-right: 10px;">
+                    <img src="img/avatar.png" id="avatar">
+                </div>
+                <div style="display: inline-block;line-height: 14px;">
+                    <p>محمد عبدالله
+                        <br>محمد</p>
+                    <img id="arrow-dowm" src="img/icon-arrow-down-small.png">
+                </div>
+            </div>
+        </div>
+
+        <!-- End side Menu -->
+
+        <!-- Start body of the website -->
+        <div class="container-box">
+
+
+            <!-- Start top bar card= select,input -->
+            <div class="card" id="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="بحث" id="scerch">
+                        </div>
+                        <div class="col">
+                            <select class="form-control" id="control-select">
+                                <option>جميع المهام</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- End top bar card= select,input-->
+
+
+
+            <!-- start card2= التصميم-->
+
+            <div class="card" id="card2">
+                <div class="card-body">
+                    <div class="row">
+                        التصميم:
+                    </div>
+                </div>
+            </div>
+            <!--End card2= التصميم-->
+
+
+            <!-- strart card3= card for التصميم -->
+            <div class="card" id="card3">
+                <div class="card-body">
+                    <div class="row item">
+                        <div class="item-checkbox">
+                            <img id="redu-1" onclick="myFunction()" src="img/icon-uncheck.svg">
+                        </div>
+                        <div class="item-text">
+                            <p id="list-1">تصميم الشكل العام وتجهيز المهام وتسليمه <span class="tag"></span></p>
+                        </div>
+                    </div>
+
+                    <div class="row item">
+                        <div class="item-checkbox">
+                            <img id="redu-2" onclick="myFunction2()" src="img/icon-uncheck.svg">
+                        </div>
+                        <div class="item-text">
+                            <p id="list-2">تحويل التصميم إلى HTML+CSS <span class="tag">CSS</span></p>
+                        </div>
+                    </div>
+
+
+                    <div class="row item">
+                        <div class="item-checkbox">
+                            <img id="redu-3" onclick="myFunction3()" src="img/icon-uncheck.svg">
+                        </div>
+                        <div class="item-text">
+                            <p id="list-3">جعل التصميم متجاوب مع المتصحات الصغيرة(Responsive) <span class="tag">CSS</span></p>
+                        </div>
+                    </div>
+
+
+                    <div class="row item">
+                        <div class="item-checkbox">
+                            <img id="redu-4" onclick="myFunction4()" src="img/icon-uncheck.svg">
+                        </div>
+                        <div class="item-text">
+                            <p id="list-4">جعل التصميم متوافق كحد أدنى مع IE9 <span class="tag">Browsers</span></p>
+                        </div>
+                    </div>
+
+                    <div class="row item">
+                        <div class="item-checkbox">
+                            <img id="redu-5" onclick="myFunction5()" src="img/icon-uncheck.svg">
+                        </div>
+                        <div class="item-text">
+                            <p id="list-5">استخدام SASS لجعل ألوان التصميم سهلة التغيير(Skin/Theme-able) <span class="tag">CSS</span></p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <!-- end card3= card for التصميم -->
+
+                <!-- start card  تحسينات-->
+                <div class="it-heder">
+                    تحسينات:
+                </div>
+                <!--End  تحسينات-->
+
+
+
+                <!-- strart  card under تحسينات -->
+                <div class="card-body">
+                    <div class="row item">
+                        <div class="item-checkbox">
+                            <img id="redu-6" onclick="myFunction6()" src="img/icon-uncheck.svg">
+                        </div>
+                        <div class="item-text">
+                            <p id="list-6">إمكانية إخفاء القائمة الجانبية <span class="tag"></span></p>
+                        </div>
+                    </div>
+
     
+
+                    <div class="row item">
+                        <div class="item-checkbox">
+                            <img id="redu-7" onclick="myFunction7()" src="img/icon-uncheck.svg">
+                        </div>
+                        <div class="item-text">
+                            <p id="list-7">إمكانية تعليم المهام كمنتهية <span class="tag"></span></p>
+                        </div>
+                    </div>
+
+
+                    <div class="row item">
+                        <div class="item-checkbox">
+                            <img id="redu-8" onclick="myFunction8()" src="img/icon-uncheck.svg">
+                        </div>
+                        <div class="item-text">
+                            <p id="list-8">إمكانية إعادة ترتيب المهام والمجموعات<span class="tag"></span></p>
+                        </div>
+                    </div>
+
+
+                    <div class="row item">
+                        <div class="item-checkbox">
+                            <img id="redu-9" onclick="myFunction9()" src="img/icon-uncheck.svg">
+                        </div>
+                        <div class="item-text">
+                            <p id="list-9">التوافقية مع اجهزة اللمس<span class="tag"></span></p>
+                        </div>
+                    </div>
+                </div>
+                <!--End  card under تحسينات -->
+
+                <!-- strart  card  اخري -->
+                <div class="it-heder">
+                    التصميم:
+                </div>
+                <!--End  card  اخري -->
+
+                <!--start  card under اخري -->
+
+                <div class="card-body">
+
+                    <div class="row item">
+                        <div class="item-checkbox">
+                            <img id="redu-10" onclick="myFunction10()" src="img/icon-uncheck.svg">
+                        </div>
+                        <div class="item-text">
+                            <p id="list-10">تسليم المشروع النهائي في git repository مع ملاحظة استخدام git-flow <span class="tag"></span></p>
+                        </div>
+                    </div>
+
+                    <div class="row item">
+                        <div class="item-checkbox">
+                            <img id="redu-11" onclick="myFunction11()" src="img/icon-uncheck.svg">
+                        </div>
+                        <div class="item-text">
+                            <p id="list-11">إضافة لمساتك الخاصة في الاماكن التي تراها مناسبة مع ذكر سبب إضافتها <span class="tag"></span></p>
+                        </div>
+                    </div>
+                </div>
+                <!--End  card under اخري -->
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="js/tam.js"></script>
+
 </body>
+
 </html>
